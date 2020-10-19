@@ -1,0 +1,28 @@
+﻿<Window x:Class="MS_Teams_Switcher.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MS_Teams_Switcher"
+        mc:Ignorable="d"
+        Title="MS-Teams-Switcher" Height="460" Width="420" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" Background="#FFE8E8E8" Closing="Window_Closing">
+      <Grid>
+
+        <StackPanel x:Name="ButtonsHolder" Height="296" Margin="10,74,10,10" VerticalAlignment="Top" Background="White">
+            <StackPanel.Effect>
+                <DropShadowEffect BlurRadius="10" ShadowDepth="1" Opacity="0.8" RenderingBias="Quality"/>
+            </StackPanel.Effect>
+            <Button x:Name="defaultButton" Content="bartula.jan@gmail.com" Height="40" FontSize="18" Margin="10,8,10,0" Background="White" Foreground="Black" FontWeight="Bold" BorderBrush="#FF5159C4" BorderThickness="1,1,1,4"/>
+            <Button x:Name="defaultButton_Copy" Content="bartula.jan@gmail.com" Height="40" FontSize="18" Margin="10,8,10,0" Background="White" Foreground="Black" FontWeight="Bold" BorderBrush="#FF5159C4" BorderThickness="1,1,1,4"/>
+            <Button x:Name="defaultButton_Copy1" Content="bartula.jan@gmail.com" Height="40" FontSize="18" Margin="10,8,10,0" Background="White" Foreground="Black" FontWeight="Bold" BorderBrush="#FF5159C4" BorderThickness="1,1,1,4"/>
+            <Button x:Name="defaultButton_Copy2" Content="bartula.jan@gmail.com" Height="40" FontSize="18" Margin="10,8,10,0" Background="White" Foreground="Black" FontWeight="Bold" BorderBrush="#FF5159C4" BorderThickness="1,1,1,4"/>
+            <Button x:Name="defaultButton_Copy3" Content="bartula.jan@gmail.com" Height="40" FontSize="18" Margin="10,8,10,0" Background="White" Foreground="Black" FontWeight="Bold" BorderBrush="#FF5159C4" BorderThickness="1,1,1,4"/>
+            <Button x:Name="defaultButton_Copy4" Content="bartula.jan@gmail.com" Height="40" FontSize="18" Margin="10,8,10,0" Background="White" Foreground="Black" FontWeight="Bold" BorderBrush="#FF5159C4" BorderThickness="1,1,1,4"/>
+        </StackPanel>
+        <Button Content="Dodaj Konto" VerticalAlignment="Bottom" Margin="109,0,111,10" Height="32" Background="#FF5159C4" FontSize="18" FontWeight="Bold" Foreground="White" BorderBrush="#FF7A82E6" Click="Button_Click_1"/>
+        <Grid Margin="34,10,51,357" HorizontalAlignment="Center">
+            <TextBlock HorizontalAlignment="Center" Margin="74,10,0,0" TextWrapping="Wrap" Text="MS Teams Accounts" VerticalAlignment="Top" Height="39" Width="266" TextAlignment="Center" FontSize="24" FontFamily="Segoe UI Semilight" Foreground="#FF4148AC"/>
+            <Image HorizontalAlignment="Left" Height="54" VerticalAlignment="Top" Width="59" Source="ms-teams.png"/>
+        </Grid>
+    </Grid>
+</Window>
